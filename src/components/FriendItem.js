@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function FriendItem({ friend }) {
   return (
-    <li key={friend.id}>
+    <li>
       <img src={friend.image} alt={friend.name} />
       <h3>{friend.name}</h3>
       {friend.balance < 0 && (
